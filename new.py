@@ -72,7 +72,7 @@ async def on_chat_start():
     setup_runnable()
     await cl.Avatar(
         name="MedLang",
-        path="public\MedLang.png",
+        path="public/MedLang.png",
     ).send()
 
 

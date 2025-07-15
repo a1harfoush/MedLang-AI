@@ -46,6 +46,14 @@ coverage.xml
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Large files and outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+theme=*.png
 
 # Environments
 .env
@@ -64,8 +72,14 @@ chainlit-env/
 # Qodana
 .qodana/
 
-# Secrets
+# Secrets and credentials
 rare-tape-382912-*.json
+*.json
+.env
+
+# Google Cloud credentials
+service-account-*.json
+credentials.json
 
 # Logs
 *.log

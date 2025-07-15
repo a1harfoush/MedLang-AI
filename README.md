@@ -31,14 +31,3 @@ The implementation of MedLang leverages advanced AI models, translation services
 *   **Appointment Scheduling**: Implement a system for users to book medical appointments directly.
 *   **Comprehensive Patient Histories**: Gather detailed patient histories to generate initial predicted diagnoses.
 *   **Expanded Language Support**: Add support for more languages to increase global accessibility.
-
-## Team
-
-*   Ahmed Hany Mohmed Harfoush
-*   Abdulrahman ashraf kandeel
-*   Omar ashraf mohammed
-*   Sllam sabry sallam
-*   Mohammed mohammed elsayed
-*   Mohammed elsayed Mancy
-
-**Supervised by:** Prof. Hisham Arafat Ali
