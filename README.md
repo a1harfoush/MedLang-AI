@@ -1,4 +1,4 @@
-<img width="540" height="540" alt="image" src="https://github.com/user-attachments/assets/3b2bd160-4f57-48dc-bbd3-297888969b74" />
+<img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/3b2bd160-4f57-48dc-bbd3-297888969b74" />
 
 # MedLang: An LLM-based Medical Chatbot
 
