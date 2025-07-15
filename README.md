@@ -1,3 +1,4 @@
+https://github.com/a1harfoush/MedLang-AI/blob/b5ef2098481cb7441a8f1d4b52e8403df78fe7b3/theme=dark.png
 # MedLang: An LLM-based Medical Chatbot
 
 MedLang is a sophisticated medical chatbot powered by a fine-tuned LLaMA-3 8B large language model. It's designed to improve healthcare accessibility and efficiency by providing accurate medical information, assisting with symptom diagnosis, and offering pre-consultation guidance to patients.
