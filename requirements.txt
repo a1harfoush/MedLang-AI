@@ -1,0 +1,11 @@
+langchain
+openai
+python-dotenv
+chainlit
+langchain-groq
+langchain-community
+duckduckgo-search
+langchain_google_community
+gcloud
+google-cloud-translate
+langgraph
