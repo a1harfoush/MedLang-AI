@@ -1,8 +1,7 @@
-
-
 # 🩺 MedLang: AI-Powered Medical Assistant
 
 <div align="center">
+
 <img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/3b2bd160-4f57-48dc-bbd3-297888969b74" />
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://python.org)
@@ -12,7 +11,7 @@
 
 **🌟 A sophisticated medical chatbot powered by fine-tuned LLaMA-3 8B, designed to revolutionize healthcare accessibility and efficiency.**
 
-[🚀 Quick Start](#-quick-start) • [📖 Features](#-key-features) • [🛠️ Installation](#️-installation) • [🌐 Demo](#-demo)
+[🚀 Quick Start](#-quick-start) • [📖 Features](#-key-features) • [🛠️ Installation](#️-installation) 
 
 </div>
 
@@ -20,7 +19,15 @@
 
 ## 🎯 **Overview**
 
-MedLang is an advanced AI medical assistant that combines the power of large language models with real-time medical information retrieval. Built on a fine-tuned LLaMA-3 8B model, it provides accurate medical guidance, symptom analysis, and multilingual support to make healthcare more accessible worldwide.
+MedLang is an advanced AI medical assistant that combines the power of large language models with real-time medical information retrieval. Built on a fine-tuned LLaMA-3 8B model using QLoRA (Quantized Low-Rank Adaptation) technique, it provides accurate medical guidance, symptom analysis, and multilingual support to make healthcare more accessible worldwide.
+
+### 🖥️ **Powered by Chainlit UI**
+MedLang features a modern, intuitive user interface built with **Chainlit** - a powerful framework for building conversational AI applications. Chainlit provides:
+- 💬 **Real-time Chat Interface** - Smooth, responsive conversations
+- 📊 **Built-in Analytics Dashboard** - Monitor usage, performance, and user interactions
+- 🔍 **Conversation Tracking** - Detailed logs and session management
+- 🎨 **Customizable UI** - Branded interface with medical themes
+- 📱 **Mobile-Responsive** - Works seamlessly across all devices
 
 ### 🌟 **Why MedLang?**
 
@@ -35,10 +42,13 @@ MedLang is an advanced AI medical assistant that combines the power of large lan
 ## ✨ **Key Features**
 
 ### 🧠 **Advanced AI Capabilities**
-- 🤖 **Fine-tuned LLaMA-3 8B** - Optimized with QLoRA for medical accuracy
+- 🤖 **Fine-tuned LLaMA-3 8B** - Specialized medical model using QLoRA technique
+- 🔬 **Medical Dataset Training** - Trained on PubMedQA dataset with 211K+ medical Q&A pairs
+- 🎯 **Parameter-Efficient Fine-tuning** - QLoRA reduces memory usage by 75% while maintaining accuracy
 - 🔍 **Real-time Search** - Live WebMD integration via DuckDuckGo
 - 📊 **Symptom Analysis** - Intelligent preliminary health assessments
-- 🎯 **Context-Aware** - Maintains conversation context for better assistance
+- 🧠 **Context-Aware** - Maintains conversation context for better assistance
+- ⚡ **Optimized Performance** - 1000 training steps with adaptive learning rates
 
 ### 🌐 **Multilingual Support**
 - 🇺🇸 **English** - Native language support
@@ -56,7 +66,10 @@ MedLang is an advanced AI medical assistant that combines the power of large lan
 - 📋 **Pre-consultation Guidance** - Prepare patients for medical visits
 - 🔄 **Follow-up Reduction** - Comprehensive initial assessments
 - 📚 **Evidence-Based** - Information from trusted medical sources
-- 🎨 **Intuitive UI** - Clean, accessible Chainlit interface
+- 🎨 **Intuitive Chainlit UI** - Clean, accessible chat interface
+- 📊 **Real-time Monitoring** - Chainlit's built-in analytics dashboard
+- 💬 **Session Management** - Conversation history and user tracking
+- 🔍 **Usage Analytics** - Detailed insights into user interactions and performance
 
 ---
 
@@ -66,13 +79,15 @@ MedLang is an advanced AI medical assistant that combines the power of large lan
 
 | Category | Technologies |
 |----------|-------------|
-| 🤖 **AI/ML** | LLaMA-3 8B, QLoRA, LangChain, Groq API |
-| 🌐 **Backend** | Python, Chainlit, FastAPI |
+| 🤖 **AI/ML** | LLaMA-3 8B, QLoRA, LangChain, Groq API, Unsloth |
+| 🖥️ **Frontend/UI** | Chainlit (Chat Interface + Analytics Dashboard) |
+| 🌐 **Backend** | Python, FastAPI, LangGraph |
 | 🔍 **Search** | DuckDuckGo API, WebMD Integration |
 | 🌍 **Translation** | Google Translate API |
+| 📊 **Training Data** | PubMedQA Dataset (211K+ medical Q&A pairs) |
 | 🚀 **Deployment** | Docker, Google Cloud Run, Kubernetes |
 | 🔐 **Auth** | Google OAuth, JWT |
-| 📊 **Monitoring** | LangSmith, Google Cloud Logging |
+| 📈 **Monitoring** | Chainlit Dashboard, LangSmith, Google Cloud Logging |
 
 </div>
 
@@ -191,18 +206,6 @@ chainlit run app.py
 
 ---
 
-## 🤝 **Contributing**
-
-We welcome contributions from the community! Whether you're a developer, healthcare professional, or AI enthusiast:
-
-- 🐛 **Report Issues** - Help us improve by reporting bugs
-- 💡 **Suggest Features** - Share your ideas for enhancements
-- 🔧 **Submit PRs** - Contribute code improvements
-- 📚 **Improve Docs** - Help make our documentation better
-
-See our [Contributing Guide](CONTRIBUTING.md) for details.
-
----
 
 ## ⚠️ **Important Disclaimers**
 
