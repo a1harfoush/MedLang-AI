@@ -21,14 +21,6 @@
 
 MedLang is an advanced AI medical assistant that combines the power of large language models with real-time medical information retrieval. Built on a fine-tuned LLaMA-3 8B model using QLoRA (Quantized Low-Rank Adaptation) technique, it provides accurate medical guidance, symptom analysis, and multilingual support to make healthcare more accessible worldwide.
 
-### 🖥️ **Powered by Chainlit UI**
-MedLang features a modern, intuitive user interface built with **Chainlit** - a powerful framework for building conversational AI applications. Chainlit provides:
-- 💬 **Real-time Chat Interface** - Smooth, responsive conversations
-- 📊 **Built-in Analytics Dashboard** - Monitor usage, performance, and user interactions
-- 🔍 **Conversation Tracking** - Detailed logs and session management
-- 🎨 **Customizable UI** - Branded interface with medical themes
-- 📱 **Mobile-Responsive** - Works seamlessly across all devices
-
 ### 🌟 **Why MedLang?**
 
 - 🔍 **Instant Medical Insights** - Get reliable health information in seconds
@@ -36,6 +28,14 @@ MedLang features a modern, intuitive user interface built with **Chainlit** - a 
 - 🎯 **Precision-Focused** - Fine-tuned specifically for medical queries
 - 🔒 **Privacy-First** - Secure and confidential interactions
 - 📱 **User-Friendly** - Intuitive chat interface for all users
+
+### 🖥️ **Powered by Chainlit UI**
+MedLang features a modern, intuitive user interface built with **Chainlit** - a powerful framework for building conversational AI applications. Chainlit provides:
+- 💬 **Real-time Chat Interface** - Smooth, responsive conversations
+- 📊 **Built-in Analytics Dashboard** - Monitor usage, performance, and user interactions
+- 🔍 **Conversation Tracking** - Detailed logs and session management
+- 🎨 **Customizable UI** - Branded interface with medical themes
+- 📱 **Mobile-Responsive** - Works seamlessly across all devices
 
 ---
 
