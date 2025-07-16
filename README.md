@@ -1,10 +1,9 @@
-<img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/3b2bd160-4f57-48dc-bbd3-297888969b74" />
+
 
 # 🩺 MedLang: AI-Powered Medical Assistant
 
 <div align="center">
-
-![MedLang Banner](https://img.shields.io/badge/MedLang-AI%20Medical%20Assistant-blue?style=for-the-badge&logo=medical-cross)
+<img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/3b2bd160-4f57-48dc-bbd3-297888969b74" />
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://python.org)
 [![LLaMA](https://img.shields.io/badge/LLaMA--3-8B-green?style=flat-square)](https://llama.meta.com/)
